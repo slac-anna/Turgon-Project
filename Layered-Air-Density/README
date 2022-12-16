@@ -1,0 +1,15 @@
+Simulate cosmic showers using hadronic interactions and layered atmosphere
+
+1. Check the Atmosphere density (h) 
+
+2. Why the following two lines need to commented out? Otherwise, there is segmentaion fault.  
+//    if(logicDetector != NULL)
+//      logicDetector->SetSensitiveDetector(sensDet);
+
+3. Code crashed using NaI in Scintilation detector
+
+4. Change the space size (xWorld, yWorl, zWorld) in construction.cc
+
+5. Set Incident source (type, location, energy) in generator.cc or run.mac files
+
+
