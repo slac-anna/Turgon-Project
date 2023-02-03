@@ -1,0 +1,17 @@
+Analyze the scattering when charged particles passing through the Atmosphere using Geant4 V11.
+
+1. Simulation space filled in uniform air density
+   Change the space size (xWorld, yWorl, zWorld) in construction.cc 
+
+2. Simple detector (TOF) for creating time of flight information
+   isTOF = true in construction.cc
+   Change the detector size in void MyDetectorConstruction::ConstructTOF() in constructure.cc
+
+3. Set Incident source (type, location, energy) in generator.cc or run.mac files
+   add GPS class
+
+4. User defined particle source in generator.cc,and generator.hh
+
+
+
+

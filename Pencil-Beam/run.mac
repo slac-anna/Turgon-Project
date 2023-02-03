@@ -1,0 +1,12 @@
+/run/numberOfThreads 4
+/run/initialize
+/gun/position 0 0 0
+/gun/momentumAmp 100 MeV
+/gun/particle e-
+/run/beamOn 100
+
+
+
+       
+
+
